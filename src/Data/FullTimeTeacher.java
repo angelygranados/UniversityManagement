@@ -23,7 +23,7 @@ public class FullTimeTeacher extends Teacher{
 
     @Override
     public String toString() {
-        return "Name: " + this.getName() + ", Email: " + this.getEmail() + ", Dedication: Full time, Experience: " + this.getExperienceYears() + "years, Salary: " + this.getSalary();
+        return "Name: " + this.getName() + ", Email: " + this.getEmail() + ", Dedication: Full time, Experience: " + this.getExperienceYears() + " years, Salary: " + this.getSalary();
     }
 
 }
